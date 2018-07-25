@@ -5,13 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+theme                    : "minimal-mistakes-jekyll"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -100,17 +94,36 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  name             : "Day34 DevOps"
+  avatar           :
+  bio              :
   location         : "Somewhere"
-  email            : "nida@nida.io"
-  home             : # null (default), "absolute or relative url to link to author home"
-  facebook         : ""
-  github           : "http://github.com/day34"
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
-
+  email            :
+  uri              :
+  home             :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         : "https://www.facebook.com/nida.inc"
+  foursquare       :
+  github           : "day34"
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    :
+  steam            :
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  medium           : "https://medium.com/nida-io"
 
 # Reading Files
 include:
@@ -239,18 +252,15 @@ compress_html:
 defaults:
   # _pages
   - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      
-  # _posts
-  - scope:
       path: ""
       type: posts
     values:
       layout: single
       read_time: true
-      comments:  true
       share: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
