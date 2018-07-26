@@ -95,7 +95,7 @@ start, end가 나와야함
 $ ./byfn.sh -m down
 ```
 
-##명령어
+## 명령어
 ### 명령어 모음 폴더
 ```
 $ cd fabcar
