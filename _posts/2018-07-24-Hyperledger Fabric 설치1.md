@@ -60,9 +60,10 @@ $ python --version
 
 ## 설치
 ### 샘플 다운로드
+`폴더명 바꾸지 마시오. 다른 샘플(Marbles)에서 폴더명이 fabric-samples으로 고정되어 있음`
 ```
-$ git clone https://github.com/hyperledger/fabric-samples.git fabric
-$ cd fabric
+$ git clone https://github.com/hyperledger/fabric-samples.git
+$ cd fabric-samples
 ```
 
 ### 바이너리 파일 설치
@@ -159,7 +160,7 @@ $ node query.js (확인)
 
 ---
 ## Marbles 설치
-[Hyperledger-Marbles-설치로 이동하기](http://127.0.0.1:4000/blockchain/Hyperledger-Marbles-설치/)
+[Hyperledger-Marbles-설치로 이동하기](/blockchain/Hyperledger-Marbles-설치/)
 
 ---
 
